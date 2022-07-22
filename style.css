@@ -1,0 +1,100 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:content-box;
+}
+
+html, body {
+  background: white;
+  font-family:sans-serif;
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%; /*responsive image*/
+}
+
+.title, h1 {
+  font-size: 3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration-color: #333;
+  font-style: normal;
+  margin-bottom: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.byline, p {
+  font-size: 1.3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*for charts*/
+.plot-holder {
+  margin-bottom: 5em;
+}
+
+.plot-holder .caption {
+  color: #333;
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.plot-holder h3 {
+  font-size: 1.5em;
+}
+
+.plot-holder .subtitle {
+  font-weight: bold;
+}
+
+/* new styles */
+.polygamy, .incest {
+  text-align: center;
+}
+
+button, select {
+  width:350px; /*this control the width of the btn*/
+  padding: 25px 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+  background-color: skyblue;
+  outline:black;
+  border:black;
+  line-height: 1rem;
+  margin-bottom: 2em;
+}
+
+.hide {
+  display: none;
+}
+
+.polygamyDetails, .incestDetails { 
+  font-size: 1.5rem;
+  width: 350px;
+  margin:1rem auto;
+  text-align: center;
+}
