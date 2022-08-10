@@ -4,10 +4,14 @@
   box-sizing:content-box;
 }
 
-html, body {
+html,
+body{
+  margin: 1rem 2rem 1rem 2rem;
   background: white;
-  font-family:sans-serif;
-}
+  font-family: "Playfair Display", serif; /*serif font*/
+  font-size: 1.1rem;
+  color: #4a4a4a;
+}    
 
 .section {
   max-width: 800px;
@@ -18,39 +22,84 @@ img {
   max-width: 100%; /*responsive image*/
 }
 
-.title, h1 {
-  font-size: 3em;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
+
 h2 {
-  font-size: 2em;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  text-decoration-color: #333;
-  font-style: normal;
-  margin-bottom: 2em;
+  /*subheader */
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-h3 {
-  font-size: 1.5em;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.deck {
+  font-family: "Playfair Display", serif; /*sans-serif font*/
+  font-size: 1.7rem;
+  line-height: 1.7rem;
   font-style: italic;
-  margin-bottom: 1em;
-}
-
-.byline, p {
-  font-size: 1.3em;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 p {
-  font-size: 1.2em;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  color: #4c4a4a;
+}
+
+.firstcharacter {
+  color: rgb(208, 48, 126);
+  float: left;
+  font-family: "Playfair Display";
+  font-size: 3rem;
+  line-height: 2.5rem;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.caption,
+.byline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.byline {
+  font-weight: bold;
+  text-align: center;
+}
+.caption {
+  font-style: italic;
+}
+
+a {
+  color: rgb(31, 92, 197);
+}
+
+a:hover {
+  color: rgb(122, 7, 7);
 }
 
 /*for charts*/
+.spacing-400 {
+  margin-bottom: 2rem;
+}
+.spacing-600 {
+  margin-bottom: 4rem;
+}
+.spacing-chart {
+  margin: 2rem 0;
+}
+
+
 .plot-holder {
   margin-bottom: 5em;
 }
@@ -81,11 +130,11 @@ button, select {
   font-size: 1.5rem;
   text-align: center;
   margin: auto;
-  background-color: skyblue;
+  background-color: rgb(236, 119, 156);
   outline:black;
   border:black;
   line-height: 1rem;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .hide {
@@ -97,4 +146,14 @@ button, select {
   width: 350px;
   margin:1rem auto;
   text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+h5 {
+  color: rgb(208, 48, 126);
+  font-size: 1.2rem;
 }
